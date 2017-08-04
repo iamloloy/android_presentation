@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Android</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
+		
+		<link rel="shortcut icon" href="android.ico">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Android Development</h1>
+					<h6><small>Prepared by: John Frederick Marquez</small></h6>
+					<h6><small>August 5, 2017</small></h6>	
+				</section>
+				<section>
+					<section>
+						<h2>Why Android?</h2>	
+					</section>
+					<section data-background-video="ipvsandroid.mkv">
+					</section>
+					<section>
+						<h3>Sales</h3>
+							<p class="fragment "> - 432 Million Smartphones </p>
+							<p class="fragment grow"> - 352 million Android (81.7%) </p>
+							<p class="fragment shrink">	- 77 million iOS (17.9%) </p>
+							<p class="fragment fade-out"> - other OS (0.3%) </p>
+							<small>
+								<p class="fragment"> <a href="https://www.theverge.com/2017/2/16/14634656/android-ios-market-share-blackberry-2016">Source: The Verge </a> </p>
+							</small>
+					</section> 
+					<section data-autoslide="2000">
+						<h3>Varieties</h3>
+						<small>
+							<p class="fragment">* Samsung</p>
+							<p class="fragment">* LG</p>
+							<p class="fragment">* Sony</p>
+							<p class="fragment">* Huawei</p>
+							<p class="fragment">* Xiaomi, Oppo, Vivo and many more.. </p>
+						</small>
+					</section>
+					<section>
+						<h3>Features</h3>
+						<p> - Hardware</p>
+						<p> - Customizable</p>		
+					</section>
+					<section>
+						<h3>Affordability</h3>	
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Background</h2>	
+					</section>
+					<section>
+						<h3>Founders</h3>
+						<p>* Andy Rubin *</p> 
+						<p>* Chris White *</p>
+						<p>* Nick Sears *</p>
+						<p>* Rich Miner *</p>
+						<p>
+							<small>Palo Alto, California
+								<br/>October 2003
+							</small>
+						</p>
+					</section>
+					<section>
+						<h3>OHA</h3>
+						<p>Open Handset Alliance</p>
+						<p>October 10, 2007</p>
+					</section>
+					<section>
+						<h3>Google</h3>
+						<p>July 2005</p>
+						<p>$50 Million</p>
+					</section>
+					<section>
+						<h3>Notable Versions</h3>
+						<ul>
+							<li>Alpha (1.0)</li>
+							<li>Beta/Petit Four (1.1)</li>
+							<li>Cupcake (1.5)</li>
+							<li>Donut (1.6)</li>
+							<li>Eclair (2.0 - 2.1)</li>
+							<li>Froyo (2.2 - 2.2.3)</li>
+							<li>Gingerbread (2.3 - 2.3.7)</li>
+							<li>Honeycomb (3.0 - 3.2.6)</li>
+							<li>Ice Cream Sandwich (4.0 - 4.0.4)</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Notable Versions</h3>
+						<ul>
+							<li>Jellybean (4.1 - 4.3.1)</li>
+							<li>Kitkat (4.4 - 4.4.4)</li>
+							<li>Lollipop (5.0 - 5.1.1)</li>
+							<li>Marshmallow (6.0 - 6.0.1)</li>
+							<li>Nougat (7.0 - 7.1.2)</li>
+							<li>O / Oatmeal Cookie (8.0)</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Development</h2>	
+					</section>
+					<section>
+						<h3>Requirements</h3>
+						<ol>
+							<li>Android Studio</li>
+							- Instructions given beforehand
+							<li>Test Device</li>
+							- Can be your phone or an emulator
+							<li>Cord</li>
+							- In case you use your phone, your usb cord is needed.
+							<li>Internet (Optional)</li>
+							- If you want to use some readily available libraries.
+						</ol>
+					</section>
+					<section>
+						<h3>Programming Language</h3>
+						<ul>
+							<li>Java</li>
+							<li>XML</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Good to learn</h3>
+						<ul>
+							<li>Sub version control</li>
+							- Super nice to have! - Git / Mercurial / Tortoise
+							<li>Ticketing System</li>
+							- Track / Report Tool - Jira / Trello
+							<li>Analytics Tool</li>
+							- Statistics - Google Analytics / Fabric / Firebase
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Coding Standards</h2>
+					</section>
+					<section>
+						<h3>Variables</h3>
+						<pre><code class="hljs" data-trim contenteditable>
+							String employeeName;
+							int studentNumber;
+							boolean isLegalAge;
+							double salaryTax;
+						</code></pre>
+						<p> Camel Casing </p>
+					</section>
+					<section>
+						<h3>Classes and Interfaces</h3>
+						<pre><code class="hljs" data-trim contenteditable>
+							public class Employee {
+
+							}
+							
+							public class MainActivity {
+
+							}
+
+							public interface Callback {
+
+							}
+						</code></pre>
+						<p> Pascal Casing </p>
+					</section>
+					<section>
+						<h3>Methods</h3>
+						<pre><code class="hljs" data-trim contenteditable>
+							private double calculateDeductions(int salary) {
+								double netPay;
+								return netPay;
+							}
+
+							public void showStatus {
+								Log.d("Status", "Single");
+							}
+
+							private boolean isEmpty(String name) {
+								return true/false;
+							}
+						</code></pre>
+						<p> Camel Casing </p>
+					</section>
+					<section>
+						<h3>Formatting</h3>
+						<ul>
+							<li>Indention</li>
+							- one tab / 4 spaces
+							<li>Auto Format</li>
+							- press CTRL + ALT +L
+						</ul>
+					</section>
+					<section data-background="code-java-background.jpg">
+						<h3>Refactoring</h3>
+						<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;It's harder to read code than to write it.&rdquo;
+						<br/> - Joel Spolsky
+						</blockquote>
+					</section>
+					<section>
+						<h3>Testing/Debugging</h3>
+						<p>- proper use of logs</p>
+					</section>	
+				</section>
+				<section>
+					<h2>Demo / Hands on Activity</h2>
+				</section>
+				<section>
+					<h2>Questions? Suggestions? Comments? Inquiries?</h2>
+				</section>
+				<section>
+					<h2>Contact Info</h2>
+					<table border="0">
+						<tr>
+							<td>
+								<center>
+									<img src="logo-fb.png" width="50" height="50" />
+									<br/>
+									<small><a href="https://facebook.com/johnloymarquez">Loloy Marquez</a></small>
+								</center>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<center>
+									<img src="logo-linkedin.png" width="50" height="50" />
+									<br/>
+									<small><a href="https://ph.linkedin.com/in/loloymarquez">John Frederick Marquez</a></small>
+								</center>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<center>
+									<img src="logo-gmail.png" width="50" height="50" />
+									<br/>
+									<small><a href="https://ph.linkedin.com/in/loloymarquez">johnfrederick.marquez@gmail.com</a></small>
+								</center>
+							</td>
+						</tr>
+					</table>
+				</section>
+				<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+					<h1>Thank you!!!</h1>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				loop: true,
+				transition: 'convex',
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
